@@ -403,7 +403,9 @@ class HUD(object):
         self.frame_number = timestamp.frame_count
         self.simulation_time = timestamp.elapsed_seconds
 
-    def tick(self, world, clock):
+    def tick(self, world, clock): # Xiaoyu guess that:
+        # Maybe the execution of this block of codes resulsts in the slow down of the simulation.
+        # Check this part of manual_control.py to find the difference.
         self._notifications.tick(world, clock)
         if not self._show_info:
             return

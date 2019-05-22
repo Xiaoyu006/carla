@@ -1,5 +1,5 @@
 # Run the world
-When I run CarlaUE.sh in a computer with Geforce GTX 960M,
+When I run CarlaUE.sh on my ubuntu laptop with Geforce GTX 960M,
 
 I found it is better to run it
 ```
